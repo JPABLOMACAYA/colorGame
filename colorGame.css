@@ -1,0 +1,105 @@
+
+body {
+    background-color: rgb(23, 23, 23);
+    margin: auto;
+}
+
+#titulo {
+    color: white;
+    background-color: gray;
+    font-family: 'Trebuchet MS';
+    font-size: 155%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#colorDisplay {
+    font-size: 200%;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.square {
+    transition-property: background;
+    transition-duration: 1s;
+    float: left;
+    width: 30%;
+    height: 0%;
+    padding-bottom: 30%;
+    background-color: white;
+    margin: 1.5%;
+    border-radius: 8%;
+}
+
+#message {
+    display: inline-block;
+    font-size: 100%;
+    font-family:Calibri;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: rgb(242, 253, 86);
+    width: 35%;
+    height: auto;
+}
+
+#stripeFondo {
+    background-color: rgb(51, 51, 51);
+    height: 30px;
+    text-align: center;
+}
+
+#stripe {
+    line-height: 30px;
+    background-color: gray;
+    max-width: 580px;
+    margin: auto;
+    height: 30px;
+    text-align: center;
+    color: azure;
+}
+
+button {
+    background-color: inherit;
+    font-size: 120%;
+    border: none;
+    outline: none;
+    height: 30px;
+    color: azure;
+    cursor: pointer;
+}
+
+button:hover {
+    transition-property: color;
+    transition-duration: 0.8s;
+    color: gold;
+}
+
+#reset {
+    position: relative;
+    float: left;
+    width: 160px;
+}
+
+#easy {
+    position: relative;
+    float: right;
+    width: 80px;
+}
+
+#hard {
+    position: relative;
+    float: right;
+    width: 80px;
+}
+
+.selected {
+    background-color: rgb(23, 23, 23);
+    color: gold;
+    font-weight: bold;
+    border-radius: 10% 0% 0% 0%;
+}
