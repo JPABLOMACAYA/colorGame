@@ -137,7 +137,7 @@ function reiniciar() {
 /*...................Funciones ejecutadas al cargar la página.................*/
 generateRandomColors(numberOfSquares); // se redefine los colores que componen el arreglo colors, acorde al nivel de dificultad.
 
-pickColor();  // en este paso la función le reasigna a pickedColor un color random dentro del arreglo colors.
+pickColor();  // la función pickColor() le reasigna a la variable pickedColor un color random desde el arreglo colors. Además se actualiza este valor en el display.
 
 colorearTarjetas(); // aquí se colorea cada tarjeta con su color aleatorio correspondiente.
 
